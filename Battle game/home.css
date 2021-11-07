@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.navbar {
+    position:relative;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(to right,rgb(255, 153, 0), rgba(0, 0, 0, 0.767), rgb(145, 242, 255));
+}
+
+.navbar .logo a{
+    position: absolute;
+    width: 352px;
+    height: 70px;
+    left: 101px;
+    top: 5px;
+    background: url("png.png") no-repeat;
+}
+          
+                            /* logo and menu */
+    .max-width{
+        position: relative;
+        max-width: 1500px;
+        padding: 0px 80px;
+        margin: auto;
+    }
+                                         /* navbar position and align */
+    
+                                        /* navbar align */
+    .navbar .max-width{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 800px;
+        padding-top: 0px;
+        position: relative;
+    }
+    
+    
+    .navbar .menu li{
+        display: inline-block;
+        list-style: none;
+        height: 10px;
+    }
+                                           /* menu btn and hover effect */
+        .navbar .menu li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 25px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        }
+
+        .navbar .menu li a:hover{
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 2px rgb(0, 247, 255);
+        }
+
+        
+        .img{
+            position: relative;
+            width: 100%;
+            height: 768px;
+            left: 0px;
+            top: 0px;
+            background: url("Rectangle 13.jpg") no-repeat fixed;
+        }
+
+        .img p{
+            position: relative;
+            width: 626px;
+            height: 143px;
+            left: 471px;
+            top: 210px;
+            color: blanchedalmond;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 155.39%;
+            background-clip:border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            background-image: linear-gradient(to right, rgb(255, 217, 0),rgb(255, 0, 0));
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .img button {
+            text-decoration: none;
+            position: absolute;
+            width: 118px;
+            height: 64px;
+            left: 591px;
+            top: 360px;
+            background: #FFFFFF;
+            border: transparent;
+            border-radius: 40px;
+            background: rgba(255, 255, 255, 0.199);
+            box-shadow: 0px 10px 10px 0px rgb(0, 0, 0), 0px 10px 10px 0px black;
+        }
+
+        .img button a{
+            font-weight: 800;
+            text-decoration: none;
+            font-family: 'MuseoModerno' sans-serif;
+            color: rgb(255, 255, 255);
+        }
+
+        .img button:hover{
+            color: rgb(0, 0, 0);
+            background-image: linear-gradient(to right, rgb(0, 247, 255),rgb(17, 0, 255));
+            box-shadow: 0px 3px 3px 0px rgb(255, 255, 255),0px 8px 8px 0px rgb(255, 255, 255);
+        }
+
+        .img2{
+            position: relative;
+            width:100%;
+            height: 768px;
+            left: 0px;
+            top: 0px;
+            background: url("battlefield5-1.jpg") no-repeat fixed;
+        }
+        .img2 p{
+            position: absolute;
+            width: 257px;
+            height: 55px;
+            left: 566px;
+            top: 50px;
+            font-size: 64px;
+            line-height: 74px;
+            color: rgb(0, 10, 156);
+
+        }
+
+        .img2 .img21 a{
+            position: absolute;
+            width: 297px;
+            height: 171px;
+            left: 176px;
+            top: 108px;
+            border-radius: 10px;
+            background: url("bf21.jpg");
+        }
+
+        .img2 .img21 a:hover{
+            transition: .5s;
+            transform: scale(1.2);
+        }
+
+        .img2 .img21 p {
+            position: absolute;
+            width: 297px;
+            height: 31px;
+            left: 176px;
+            top: 297px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .img2 .img22 a{
+            position: absolute;
+            width: 297px;
+            height: 171px;
+            left: 876px;
+            top: 108px;
+            background: url("bf22.png");
+            border-radius: 10px;
+        }
+
+        .img2 .img22 a:hover:hover{
+            transition: .5s;
+            transform: scale(1.2);
+        }
+        
+
+        .img2 .img22 p{
+            position: absolute;
+            width: 297px;
+            height: 29px;
+            left: 878px;
+            top: 297px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .img2 .img23 a{
+            position: absolute;
+            width: 297px;
+            height: 178px;
+            left: 176px;
+            top: 355px;
+            border-radius: 23px;
+            background: url(bf23.jpg);
+            border-radius: 10px;
+        }
+
+        .img2 .img23 a:hover{
+            transition: .5s;
+            transform: scale(1.2);
+        }
+
+        .img2 .img23 p{
+            position: absolute;
+            width: 297px;
+            height: 29px;
+            left: 176px;
+            top: 552px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .img2 .img24 a{
+            position: absolute;
+            width: 297px;
+            height: 178px;
+            left: 876px;
+            top: 355px;
+            background: url(bf24.jpg);
+            border-radius: 10px;
+        }
+
+        .img2 .img24 a:hover{
+            transition: .5s;
+            transform: scale(1.2);
+        }
+
+        .img2 .img24 p{
+            position: absolute;
+            width: 297px;
+            height: 29px;
+            left: 878px;
+            top: 552px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .img3 {
+            position: relative;
+            width: 100%;
+            height: 768px;
+            flex-wrap: wrap;
+            background: url("bg3.jpg");
+        }
+
+        .img3 .img31 a{
+            position: absolute;
+            width: 297px;
+            height: 171px;
+            left: 209px;
+            top: 145px;
+            border-radius: 23px;
+            background: url("bf31.jpg");
+            border-radius: 10px;
+        }
+
+        .img3 .img31 a:hover{
+            transition: .5s;
+            transform: scale(1.2);
+        }
+
+        .img3 .img31 p {
+            position: absolute;
+            width: 297px;
+            height: 29px;
+            left: 209px;
+            top: 334px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+        .img3 .img32 a{
+            position: absolute;
+            width: 297px;
+            height: 171px;
+            left: 843px;
+            top: 145px;
+            background: url(bf32.png);
+            border-radius: 10px;
+        }
+
+        .img3 .img32 a:hover{
+            transition: .5s;
+            transform: scale(1.2);
+        }
+
+        .img3 .img32 p{
+            position: absolute;
+            width: 297px;
+            height: 29px;
+            left: 843px;
+            top: 334px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+        .img3 .img33 a{
+            position: absolute;
+            width: 297px;
+            height: 160px;
+            left: 209px;
+            top: 410px;
+            border-radius: 23px;
+            background: url(bf33.jpg);
+            border-radius: 10px;
+        }
+
+        .img3 .img33 a:hover{
+            transition: .5s;
+            transform: scale(1.2);
+        }
+
+        .img3 .img33 p{
+            position: absolute;
+            width: 297px;
+            height: 29px;
+            left: 209px;
+            top: 588px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+        .img3 .img34 a{
+            position: absolute;
+            width: 297px;
+            height: 160px;
+            left: 843px;
+            top: 410px;
+            background: url(bf34.jpg);
+            border-radius: 10px;
+        }
+
+        .img3 .img34 a:hover{
+            transition: .5s ease-in-out;
+            transform: scale(1.2);
+        }
+
+        .img3 .img34 p{
+            position: absolute;
+            width: 297px;
+            height: 29px;
+            left: 843px;
+            top: 588px;
+            font-family: 'Play', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+        @media only screen and (max-width:500px){
+
+
+        }

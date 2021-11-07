@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#unfloted-container{
+    width: 1000px;
+}
+
+.max-width{                          /* logo and menu */
+    max-width: 100%;
+    padding: 0px 80px;
+    margin: auto;
+}
+                                     /* navbar position and align */
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'Play', sans-serif;
+    transition: all 0.3s ease;
+    background: black;
+}
+                                    /* navbar align */
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+                                       /* logo css */
+.navbar .logo span{
+    background-image: linear-gradient(rgb(0, 225, 255),rgba(255, 0, 0, 0.644),rgb(247, 0, 255));
+    border-radius: 40px 40px 40px 40px;
+    padding: 0px 15px;
+    font-family:'Play', sans-serif;
+}
+                                      /* logo link */
+.navbar .logo a{
+    color:snow;
+    font-size: 35px;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+                                       /* menu list style */
+.navbar .menu li{
+    display: inline-block;
+    list-style: none;
+}
+                                       /* menu btn and hover effect */
+.navbar .menu li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    }
+
+    .navbar .menu li a:hover{
+    color: rgb(0, 255, 242);
+    box-shadow: 0px 2px rgb(0, 195, 255);
+    }
+
+    .menu-btn{
+        color: snow;
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
+    }
+
+
+
+    /* welcome text*/
+
+                                   /* section and cont for scroll effect */
+    section{
+        height: 100vh;
+        display: flex;
+        
+    }
+
+    .two{
+        background: url("extra2.jpg") no-repeat;
+        display: flex;
+        text-decoration: none;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        font-weight: 700;        
+        background-size: 1755px;
+        align-items:center;
+    }
+
+    .two .max-width{
+        margin: auto 0 auto 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-shadow: 2px 2px rgb(0, 0, 0), 5px 5px rgb(0, 0, 0), 6px 6px rgb(0, 0, 0);
+    }
+
+    .two .t1{
+        font-size:  57px;
+        text-decoration: none;
+    }
+
+    .two .t2{
+        font-size: 67px;
+        text-decoration: none;
+    }
+
+    .two .t2 span{
+        font-size: 67px;
+        font-weight: 600;
+        color: rgb(251, 255, 0);
+        text-decoration: none;
+    }
+
+    .two .btn {
+        background: rgba(0, 0, 0, 0.808);
+        float:left;
+        text-decoration: none;
+    }
+    
+    .btn {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+    }
+      
+      .btn:hover {
+        background-image: linear-gradient(rgb(0, 247, 255),rgb(36, 36, 202));
+    }
+
+    .two .btn a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .two .btn {
+        padding: 16px 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        display:flex;
+        box-sizing:border-box;
+        border: 2px white solid;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        cursor: pointer;
+        margin: 10px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: transparent;
+        box-shadow: 0 6px 20px 0 rgb(27, 211, 243), 0 6px 20px 0 rgb(255, 255, 255);
+    }
+
+    /*Sign up form*/
+
+    /*Sign in form*/
+    
+    .footer{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
+
+    .footer .terms1{
+        height: 100%;
+        width: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .footer .terms1 a{
+        display: flex;
+        color: white;
+        padding-left: 30px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer .terms2{
+        height: 100%;
+        width: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .footer .terms2 a{
+        display: flex;
+        color: white;
+        padding-left: 0px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer .foot-img a{
+        position: absolute;
+        width: 102px;
+        height: 34px;
+        left: 1128px;
+        top: 710px;
+        background: url("trust.png") no-repeat;
+    }
+    
+    .footer .icons{
+        position: absolute;
+        display: flex;
+        width: 102px;
+        height: 34px;
+        left: 710px;
+        top: 710px;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .fab{
+        text-decoration: none;
+    }
+
+    .footer .fa-facebook-f{
+        color: rgb(0, 162, 255);
+        margin: 20px;
+    }
+
+    .fa-facebook-f:hover{
+        transform: scale(1.2);
+    }
+
+    .fa-twitter{
+        color: rgb(0, 162, 255);
+        margin: 20px;
+    }
+
+    .fa-twitter:hover{
+        transform: scale(1.2);
+    }
+
+    .fa-instagram{
+        color: rgb(209, 160, 0);
+        margin: 20px;
+    }
+
+    .fa-instagram:hover{
+        transform: scale(1.2);
+    }
+
+    .fa-youtube{
+        color: rgb(218, 0, 0);
+        margin: 20px;
+    }
+      .fa-youtube:hover{
+        transform: scale(1.2);
+      }
+
+      @media screen and (max-width:600px) {
+        .section{
+            font-size: 1px;
+        }
+      }

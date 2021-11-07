@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 700;   
+}
+
+.navbar {
+    position:absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(to right,rgb(255, 153, 0), rgba(0, 0, 0, 0.767), rgb(145, 242, 255));
+}
+
+.navbar .logo a{
+    position: absolute;
+    width: 352px;
+    height: 70px;
+    left: 101px;
+    top: 5px;
+    background: url("png.png") no-repeat;
+}
+          
+                            /* logo and menu */
+    .max-width{
+        position: relative;
+        max-width: 1500px;
+        padding: 0px 80px;
+        margin: auto;
+    }
+                                         /* navbar position and align */
+    
+                                        /* navbar align */
+    .navbar .max-width{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 800px;
+        padding-top: 0px;
+        position: relative;
+    }
+    
+    
+    .navbar .menu li{
+        display: inline-block;
+        list-style: none;
+        height: 10px;
+    }
+                                           /* menu btn and hover effect */
+        .navbar .menu li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 25px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        }
+
+        .navbar .menu li a:hover{
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 2px rgb(0, 247, 255);
+        }
+
+        .battle{
+            position:relative;
+            width: 100%;
+            height:100vh;
+            left: 0px;
+            top: 75px;
+            flex-wrap: wrap;
+            background-image: linear-gradient(rgb(0, 0, 0),rgb(132, 235, 237));
+        }
+        .b1{
+            position: absolute;
+            width: 300px;
+            height: 224px;
+            left: 110px;
+            top: 125px;
+            background: url("b1.jpg");
+        }
+        .bf1{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf1:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        .b2{
+            position: absolute;
+            width: 301px;
+            height: 224px;
+            left: 539px;
+            top: 125px;
+            background: url("b2.jpg");
+        }
+        .bf2{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf2:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        .b3{
+            position: absolute;
+            width: 300px;
+            height: 224px;
+            left: 969px;
+            top: 125px;
+            background: url("b3.jpg");
+        }
+        .bf3{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf3:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        .b4{
+            position: absolute;
+            width: 300px;
+            height: 224px;
+            left: 110px;
+            top: 435px;
+            background: url("b4.jpg");
+        }
+        .bf4{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf4:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        .b5{
+            position: absolute;
+            width: 301px;
+            height: 224px;
+            left: 539px;
+            top: 435px;
+            background: url("b5.jpg");
+        }
+        .bf5{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf5:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        .b6{
+            position: absolute;
+            width: 300px;
+            height: 224px;
+            left: 969px;
+            top: 435px;
+            background: url("b6.jpg");
+        }
+        .bf6{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf6:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        
+        .battle2{
+            position:relative;
+            width: 100%;
+            height:100vh;
+            left: 0px;
+            top: 75px;
+            background-image: linear-gradient(rgb(132, 235, 237),rgb(0, 0, 0));
+        }
+        .b7{
+            position: absolute;
+            width: 300px;
+            height: 224px;
+            left: 200px;
+            top: 140px;       
+            background: url("b7.jpg");
+        }
+        .bf7{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf7:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        .b8{
+            position: absolute;
+            width: 300px;
+            height: 224px;
+            left: 879px;
+            top: 140px;
+            background: url("b8.jpg");
+        }
+        .bf8{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: transparent;
+            justify-content: center;
+            opacity: 0;
+            
+        }
+        .bf8:hover{
+            opacity: 1;
+            font-size: 40px;
+            color: rgb(0, 255, 255);
+            background: rgba(0, 0, 0, 0.829);
+        }
+        
+        .btn9{
+            position: relative;
+            width: 400px;
+            height: 50px;
+            left: 500px;
+            top: 500px;
+            font-size: 28px;
+            background: rgba(255, 255, 255, 0.507);
+            background-image: linear-gradient(to right,rgba(0, 255, 242, 0.411),rgba(130, 141, 238, 0.568));
+            border: transparent;
+            border-radius: 20px;
+        }
+        .btn9:hover{
+            background-image: linear-gradient(to right,rgba(130, 141, 238, 0.568),rgba(0, 255, 242, 0.411));
+
+        }
+
+        /*footer*/
+        .footer{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+        }
+        
+        .footer .terms1{
+            height: 100%;
+            width: 400px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            line-height: 10px;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+    
+        .footer .terms1 a{
+            display: flex;
+            color: white;
+            padding-left: 30px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .footer .terms2{
+            height: 100%;
+            width: 400px;
+            padding-top: 80px;
+            padding-bottom: 20px;
+            line-height: 10px;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+    
+        .footer .terms2 a{
+            display: flex;
+            color: white;
+            padding-left: 0px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .footer .foot-img a{
+            position: absolute;
+            width: 102px;
+            height: 34px;
+            left: 1128px;
+            top: 1400px;
+            background: url("trust.png") no-repeat;
+        }
+        
+        .footer .icons{
+            position: absolute;
+            display: flex;
+            width: 102px;
+            height: 34px;
+            left: 710px;
+            top: 1400px;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .fab {
+            text-decoration: none;
+        }
+        
+        .fa-facebook-f{
+            color: rgb(0, 162, 255);
+            margin: 20px;
+        }
+    
+        .fa-facebook-f:hover{
+            color: rgb(0, 162, 255);
+            transform: scale(1.2);
+        }
+    
+        .fa-twitter{
+            color: rgb(0, 162, 255);
+            margin: 20px;
+        }
+    
+        .fa-twitter:hover{
+            color: rgb(0, 162, 255);
+            transform: scale(1.2);
+        }
+    
+        .fa-instagram{
+            color: rgb(209, 160, 0);
+            margin: 20px;
+        }
+    
+        .fa-instagram:hover{
+            color: rgb(209, 160, 0);
+            transform: scale(1.2);
+        }
+    
+        .fa-youtube{
+            color: rgb(218, 0, 0);
+            margin: 20px;
+        }
+          .fa-youtube:hover{
+            color: rgb(218, 0, 0);
+            transform: scale(1.2);
+          }

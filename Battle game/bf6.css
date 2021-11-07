@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    font-weight: 700;   
+}
+
+.navbar {
+    position:absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(to right,rgb(255, 153, 0), rgba(0, 0, 0, 0.767), rgb(145, 242, 255));
+}
+
+.navbar .logo a{
+    position: absolute;
+    width: 352px;
+    height: 70px;
+    left: 101px;
+    top: 5px;
+    background: url("png.png") no-repeat;
+}
+          
+                            /* logo and menu */
+    .max-width{
+        position: relative;
+        max-width: 1500px;
+        padding: 0px 80px;
+        margin: auto;
+    }
+                                         /* navbar position and align */
+    
+                                        /* navbar align */
+    .navbar .max-width{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 800px;
+        padding-top: 0px;
+        position: relative;
+    }
+    
+    
+    .navbar .menu li{
+        display: inline-block;
+        list-style: none;
+        height: 10px;
+    }
+                                           /* menu btn and hover effect */
+        .navbar .menu li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Play', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 25px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        }
+
+        .navbar .menu li a:hover{
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 2px rgb(0, 247, 255);
+        }
+
+        .bf1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position:relative;
+            width: 100%;
+            height:100%;
+            left: 0px;
+            top: 80px;
+            background:black;
+        }
+        
+        .bf2 {
+            position:relative;
+            width:100%;
+            height:720px;
+            left: 0px;
+            top: 40px;
+            background: url("bff6.jpg");
+        }
+        .bf2 .bff1 p{
+            position: absolute;
+            width: 219px;
+            height: 50px;
+            left: 565px;
+            top: 190px;
+            color: white;
+            font-size: 25px;
+            line-height: 56px;
+            text-align: center;
+        }
+        .bf2 .bff2 p{
+            position: absolute;
+            width: 949px;
+            height: 56px;
+            left: 200px;
+            top: 230px;
+            color: white;
+            font-size: 50px;
+            line-height: 75px;
+            text-align: center;
+        }
+        .bf2 .bff3 p{
+            position: absolute;
+            width: 1150px;
+            height: 56px;
+            left: 99px;
+            top: 300px;
+            font-size: 25px;
+            line-height: 45px;
+            text-align: center;
+            color: white;
+        }
+        .bf3 {
+            position:relative;
+            width: 100%;
+            height:768px;
+            left: 0px;
+            top: 40px;
+            background-image: linear-gradient(rgba(0, 83, 87, 1),black);
+        }
+        
+        .bf3 .bff1 p{
+            position: absolute;
+            width: 219px;
+            height: 50px;
+            left: 565px;
+            top: 201px;
+            color: white;
+            font-size: 18px;
+            line-height: 56px;
+            text-align: center;
+        }
+
+        
+        
+
+        .bf3 .bff2 p{
+            position: absolute;
+            width: 949px;
+            height: 56px;
+            left: 200px;
+            top: 100px;
+            color: white;
+            font-size: 40px;
+            line-height: 75px;
+            text-align: center;
+        }
+        
+        .bf3 .bff3 p{
+            position: absolute;
+            width: 1150px;
+            height: 56px;
+            left: 99px;
+            top: 190px;
+            font-size: 20px;
+            line-height: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .bf3 .bff4{
+            position: absolute;
+            width: 384px;
+            height: 220px;
+            left: 53px;
+            top: 371px;
+
+            background: url("wepons6.jpg");
+            border-radius: 5px;
+        }
+
+        .bf3 .bff5{
+            position: absolute;
+            width: 379px;
+            height: 220px;
+            left: 483px;
+            top: 371px;
+            background: url("maps6.jpg");
+            border-radius: 5px;
+        }
+        
+        .bf3 .bff6{
+            position: absolute;
+            width: 388px;
+            height: 220px;
+            left: 908px;
+            top: 371px;
+            background: url("vechical6.jpg");
+            border-radius: 5px;
+        }
+        .bf3 .bff4 p{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            opacity: 0;
+            color: rgb(0, 217, 255);
+            font-size: 80px;
+            
+        }
+        .bf3 .bff4 p:hover{
+            opacity: 1;
+        }
+        .bf3 .bff5 p{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            opacity: 0;
+            color: rgb(0, 217, 255);
+            font-size: 80px;
+            
+        }
+
+        .bf3 .bff5 p:hover{
+            opacity: 1;
+        }
+        .bf3 .bff6 p{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            opacity: 0;
+            color: rgb(0, 217, 255);
+            font-size: 80px;
+            
+        }
+        .bf3 .bff6 p:hover{
+            opacity: 1;
+        }
+
+        .bf4 {
+            position:relative;
+            width: 100%;
+            height:720px;
+            left: 0px;
+            top: 40px;
+            background-image: linear-gradient(rgba(0, 83, 87, 1),black);
+        }
+
+        .bf4 .bff1 p{
+            position: absolute;
+            width: 588px;
+            height: 605px;
+            left: 122px;
+            top: 82px;
+            font-size: 22px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            color: rgb(255, 255, 255);
+
+        }
+        .bf4 .bff2 {
+            position: absolute;
+            width: 341px;
+            height: 525px;
+            left: 909px;
+            top: 122px;
+            background: white;
+        }
+        .bf4 .img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+
+            background: url("bf buy6.jpg") no-repeat;
+        }
+        .bf4 button a{
+            position: absolute;
+            width: 120px;
+            height: 25px;
+            left: 110px;
+            top: 430px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background: rgb(0, 0, 0);
+            box-shadow: 0px 10px 10px 0px rgb(0, 81, 255), 0px 10px 10px 0px rgb(26, 255, 5);
+        
+        }
+        .bf4 .bff2 button a:hover{
+            color: black;
+            background-image: linear-gradient(to right, rgb(0, 247, 255),rgb(17, 0, 255));
+            box-shadow: 0px 3px 3px 0px rgb(0, 0, 0),0px 8px 8px 0px rgb(0, 0, 0);
+        }
+        .bf4 .bff2 p{
+            position: absolute;
+            width: 100%;
+            height: 25px;
+            left:60px;
+            top: 334px;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: black;
+        }
+
+        /*footer*/
+        .footer{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+        }
+        
+        .footer .terms1{
+            height: 100%;
+            width: 400px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            line-height: 10px;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+    
+        .footer .terms1 a{
+            display: flex;
+            color: white;
+            padding-left: 30px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .footer .terms2{
+            height: 100%;
+            width: 400px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            line-height: 20px;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+    
+        .footer .terms2 a{
+            display: flex;
+            color: white;
+            padding-left: 0px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .footer .foot-img a{
+            position: absolute;
+            width: 102px;
+            height: 34px;
+            left: 1128px;
+            top: 2995px;
+            background: url("trust.png") no-repeat;
+        }
+        
+        .footer .icons{
+            position: absolute;
+            display: flex;
+            width: 102px;
+            height: 34px;
+            left: 710px;
+            top: 2995px;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .fab {
+            text-decoration: none;
+        }
+        
+        .fa-facebook-f{
+            color: rgb(0, 162, 255);
+            margin: 20px;
+        }
+    
+        .fa-facebook-f:hover{
+            color: rgb(0, 162, 255);
+            transform: scale(1.2);
+        }
+    
+        .fa-twitter{
+            color: rgb(0, 162, 255);
+            margin: 20px;
+        }
+    
+        .fa-twitter:hover{
+            color: rgb(0, 162, 255);
+            transform: scale(1.2);
+        }
+    
+        .fa-instagram{
+            color: rgb(209, 160, 0);
+            margin: 20px;
+        }
+    
+        .fa-instagram:hover{
+            color: rgb(209, 160, 0);
+            transform: scale(1.2);
+        }
+    
+        .fa-youtube{
+            color: rgb(218, 0, 0);
+            margin: 20px;
+        }
+          .fa-youtube:hover{
+            color: rgb(218, 0, 0);
+            transform: scale(1.2);
+          }

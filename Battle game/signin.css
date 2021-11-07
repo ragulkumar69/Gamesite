@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+   
+}
+.navbar .menu{
+  display: inline-block;
+  list-style: none;
+  padding-top: 0px;
+  padding-left: 510px ;
+  
+
+}
+
+
+body{
+  background: url("Wallpaper10.jpg") no-repeat;
+  background-size: 1370px;
+  height: 100vh;
+  }
+  
+
+  .form{
+    position: relative;
+    height: 65%;
+    width: 30%;
+    padding:25px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.377);
+    left: 100px;
+    top: 140px;
+    
+}
+.form .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    left: 57px;
+    color: rgb(255, 255, 255);
+}
+.form h2{
+    position: relative;
+    display: flex;
+    left: 130px;
+    top:5px;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+.form .inputbox input{
+    width: 75%;
+    color: rgb(255, 255, 255);
+    padding: 8px 0;
+    font-size: 18px;
+    margin: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+.form .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0px;
+    font-size: 18px;
+    margin: 10px 0px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.form .inputbox input:focus ~ span,
+.form .inputbox input:valid ~ span{
+    font-size: 15px;
+    transform: translateY(-20px);
+}
+.form .inputbox input[type="submit"]{
+    width: 100px;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background: turquoise;
+    box-shadow: 0px 8px 8px 0px rgb(0, 0, 0), 0px 10px 10px 0px black;
+}
+.form .inputbox input[type="submit"]:hover{
+    color: white;
+    background: black;
+    box-shadow: 0px 8px 8px 0px rgb(255, 255, 255), 0px 10px 10px 0px rgb(235, 235, 235);
+}
+
+.button-text{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Play', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.button-text a{
+  color: rgb(0, 0, 0);
+}
+
