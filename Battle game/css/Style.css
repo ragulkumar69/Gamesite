@@ -93,7 +93,7 @@
     }
 
     .two{
-        background: url("extra2.jpg") no-repeat;
+        background-image: url('../img/extra2.jpg');
         display: flex;
         text-decoration: none;
         font-family: 'Play', sans-serif;
@@ -198,7 +198,7 @@
 
     .footer .terms2{
         height: 100%;
-        width: 400px;
+        width: 200px;
         padding-top: 20px;
         padding-bottom: 20px;
         line-height: 20px;
@@ -222,7 +222,7 @@
         height: 34px;
         left: 1128px;
         top: 710px;
-        background: url("trust.png") no-repeat;
+        background: url("../img/trust.png") no-repeat;
     }
     
     .footer .icons{
@@ -277,8 +277,4 @@
         transform: scale(1.2);
       }
 
-      @media screen and (max-width:600px) {
-        .section{
-            font-size: 1px;
-        }
-      }
+     

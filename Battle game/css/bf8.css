@@ -28,7 +28,7 @@
     height: 70px;
     left: 101px;
     top: 5px;
-    background: url("png.png") no-repeat;
+    background: url("../img/png.png") no-repeat;
 }
           
                             /* logo and menu */
@@ -83,23 +83,27 @@
             top: 80px;
             background:black;
         }
+        .bf1 .bfv{
+            width: 1200px;
+            height:720px;
+        }
         
         .bf2 {
             position:relative;
-            width:100%;
+            width: 100%;
             height:720px;
             left: 0px;
             top: 40px;
-            background: url("bff6.jpg");
+            background: url("../img/bff8.jpg");
         }
         .bf2 .bff1 p{
             position: absolute;
             width: 219px;
             height: 50px;
             left: 565px;
-            top: 190px;
+            top: 201px;
             color: white;
-            font-size: 25px;
+            font-size: 18px;
             line-height: 56px;
             text-align: center;
         }
@@ -108,9 +112,9 @@
             width: 949px;
             height: 56px;
             left: 200px;
-            top: 230px;
+            top: 266px;
             color: white;
-            font-size: 50px;
+            font-size: 40px;
             line-height: 75px;
             text-align: center;
         }
@@ -119,19 +123,19 @@
             width: 1150px;
             height: 56px;
             left: 99px;
-            top: 300px;
+            top: 337px;
             font-size: 25px;
-            line-height: 45px;
+            line-height: 56px;
             text-align: center;
             color: white;
         }
         .bf3 {
             position:relative;
             width: 100%;
-            height:768px;
+            height:720px;
             left: 0px;
             top: 40px;
-            background-image: linear-gradient(rgba(0, 83, 87, 1),black);
+            background-image: linear-gradient(rgba(103, 91, 65, 1),black);
         }
         
         .bf3 .bff1 p{
@@ -168,7 +172,7 @@
             left: 99px;
             top: 190px;
             font-size: 20px;
-            line-height: 40px;
+            line-height: 50px;
             text-align: center;
             color: white;
         }
@@ -180,7 +184,7 @@
             left: 53px;
             top: 371px;
 
-            background: url("wepons6.jpg");
+            background: url("../img/wepons8.jpg");
             border-radius: 5px;
         }
 
@@ -190,7 +194,7 @@
             height: 220px;
             left: 483px;
             top: 371px;
-            background: url("maps6.jpg");
+            background: url("../img/maps8.jpg");
             border-radius: 5px;
         }
         
@@ -200,7 +204,7 @@
             height: 220px;
             left: 908px;
             top: 371px;
-            background: url("vechical6.jpg");
+            background: url("../img/vechical8.jpg");
             border-radius: 5px;
         }
         .bf3 .bff4 p{
@@ -250,7 +254,7 @@
             height:720px;
             left: 0px;
             top: 40px;
-            background-image: linear-gradient(rgba(0, 83, 87, 1),black);
+            background-image: linear-gradient(rgba(103, 91, 65, 1),black);
         }
 
         .bf4 .bff1 p{
@@ -259,8 +263,8 @@
             height: 605px;
             left: 122px;
             top: 82px;
-            font-size: 22px;
-            line-height: 30px;
+            font-size: 24px;
+            line-height: 28px;
             display: flex;
             align-items: center;
             color: rgb(255, 255, 255);
@@ -281,7 +285,7 @@
             left: 0px;
             top: 0px;
 
-            background: url("bf buy6.jpg") no-repeat;
+            background: url("../img/bf buy8.jpg") no-repeat;
         }
         .bf4 button a{
             position: absolute;
@@ -304,7 +308,7 @@
             position: absolute;
             width: 100%;
             height: 25px;
-            left:60px;
+            left: 40px;
             top: 334px;
             font-size: 30px;
             display: flex;
@@ -343,10 +347,10 @@
     
         .footer .terms2{
             height: 100%;
-            width: 400px;
+            width: 200px;
             padding-top: 50px;
             padding-bottom: 20px;
-            line-height: 20px;
+            line-height: 10px;
             align-items: center;
             justify-content: space-between;
             
@@ -366,8 +370,8 @@
             width: 102px;
             height: 34px;
             left: 1128px;
-            top: 2995px;
-            background: url("trust.png") no-repeat;
+            top: 2970px;
+            background: url("../img/trust.png") no-repeat;
         }
         
         .footer .icons{
@@ -376,7 +380,7 @@
             width: 102px;
             height: 34px;
             left: 710px;
-            top: 2995px;
+            top: 2970px;
             font-size: 35px;
             color: rgb(255, 255, 255);
             align-items: center;

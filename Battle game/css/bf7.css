@@ -28,7 +28,7 @@
     height: 70px;
     left: 101px;
     top: 5px;
-    background: url("png.png") no-repeat;
+    background: url("../img/png.png") no-repeat;
 }
           
                             /* logo and menu */
@@ -83,14 +83,18 @@
             top: 80px;
             background:black;
         }
+        .bf1 .bfv{
+            width: 1200px;
+            height:720px;
+        }
         
         .bf2 {
             position:relative;
-            width: 1349px;
+            width: 100%;
             height:720px;
             left: 0px;
             top: 40px;
-            background: url("bff4.jpg");
+            background: url("../img/bff7.jpg");
         }
         .bf2 .bff1 p{
             position: absolute;
@@ -98,7 +102,7 @@
             height: 50px;
             left: 565px;
             top: 201px;
-            color: white;
+            color: rgb(0, 0, 0);
             font-size: 18px;
             line-height: 56px;
             text-align: center;
@@ -108,8 +112,8 @@
             width: 949px;
             height: 56px;
             left: 200px;
-            top: 100px;
-            color: white;
+            top: 266px;
+            color: rgb(0, 0, 0);
             font-size: 40px;
             line-height: 75px;
             text-align: center;
@@ -119,19 +123,19 @@
             width: 1150px;
             height: 56px;
             left: 99px;
-            top: 200px;
+            top: 337px;
             font-size: 25px;
-            line-height: 40px;
+            line-height: 56px;
             text-align: center;
-            color: white;
+            color: rgb(255, 196, 0);
         }
         .bf3 {
             position:relative;
-            width: 1349px;
-            height:720px;
+            width: 100%;
+            height:769px;
             left: 0px;
             top: 40px;
-            background-image: linear-gradient(rgba(93, 52, 9, 1),black);
+            background-image: linear-gradient(rgba(156, 187, 218, 1),black);
         }
         
         .bf3 .bff1 p{
@@ -154,7 +158,7 @@
             width: 949px;
             height: 56px;
             left: 200px;
-            top: 100px;
+            top: 156px;
             color: white;
             font-size: 40px;
             line-height: 75px;
@@ -166,7 +170,7 @@
             width: 1150px;
             height: 56px;
             left: 99px;
-            top: 190px;
+            top: 247px;
             font-size: 20px;
             line-height: 56px;
             text-align: center;
@@ -180,7 +184,7 @@
             left: 53px;
             top: 371px;
 
-            background: url("wepons4.jpg");
+            background: url("../img/wepons7.jpg");
             border-radius: 5px;
         }
 
@@ -190,7 +194,7 @@
             height: 220px;
             left: 483px;
             top: 371px;
-            background: url("maps4.jpg");
+            background: url("../img/maps7.jpg");
             border-radius: 5px;
         }
         
@@ -200,7 +204,7 @@
             height: 220px;
             left: 908px;
             top: 371px;
-            background: url("vechical4.jpg");
+            background: url("../img/vechical7.jpg");
             border-radius: 5px;
         }
         .bf3 .bff4 p{
@@ -246,11 +250,11 @@
 
         .bf4 {
             position:relative;
-            width: 1349px;
+            width: 100%;
             height:720px;
             left: 0px;
             top: 40px;
-            background-image: linear-gradient(rgba(93, 52, 9, 1),black);
+            background-image: linear-gradient(rgba(156, 187, 218, 1),black);
         }
 
         .bf4 .bff1 p{
@@ -281,7 +285,7 @@
             left: 0px;
             top: 0px;
 
-            background: url("bf buy4.jpg") no-repeat;
+            background: url("../img/bf buy7.jpg") no-repeat;
         }
         .bf4 button a{
             position: absolute;
@@ -304,9 +308,9 @@
             position: absolute;
             width: 100%;
             height: 25px;
-            left: 80px;
+            left: 90px;
             top: 334px;
-            font-size: 30px;
+            font-size: 25px;
             display: flex;
             align-items: center;
             text-align: center;
@@ -343,10 +347,10 @@
     
         .footer .terms2{
             height: 100%;
-            width: 400px;
+            width: 200px;
             padding-top: 50px;
             padding-bottom: 20px;
-            line-height: 20px;
+            line-height: 10px;
             align-items: center;
             justify-content: space-between;
             
@@ -366,8 +370,8 @@
             width: 102px;
             height: 34px;
             left: 1128px;
-            top: 2950px;
-            background: url("trust.png") no-repeat;
+            top: 3000px;
+            background: url("../img/trust.png") no-repeat;
         }
         
         .footer .icons{
@@ -376,7 +380,7 @@
             width: 102px;
             height: 34px;
             left: 710px;
-            top: 2950px;
+            top: 3000px;
             font-size: 35px;
             color: rgb(255, 255, 255);
             align-items: center;

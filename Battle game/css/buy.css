@@ -28,7 +28,7 @@
     height: 70px;
     left: 101px;
     top: 5px;
-    background: url("png.png") no-repeat;
+    background: url("../img/png.png") no-repeat;
 }
           
                             /* logo and menu */
@@ -62,7 +62,7 @@
         font-family: 'Play', sans-serif;
         font-style: normal;
         font-weight: 700;
-        margin-left: 25px;
+        margin-left: 30px;
         text-decoration: none;
         transition: color 0.3s ease;
         }
@@ -70,6 +70,15 @@
         .navbar .menu li a:hover{
         color: rgb(0, 0, 0);
         box-shadow: 0px 2px rgb(0, 247, 255);
+        }
+        .battle1{
+            position: relative;
+            height: 100px;
+            width: 400px;
+            font-size: 30px;
+            top: 40px;
+            left: 500px;
+            color: rgb(0, 255, 213);
         }
 
         .battle{
@@ -87,7 +96,7 @@
             height: 224px;
             left: 110px;
             top: 125px;
-            background: url("b1.jpg");
+            background: url("../img/b1.jpg");
         }
         .bf1{
             position: relative;
@@ -111,7 +120,7 @@
             height: 224px;
             left: 539px;
             top: 125px;
-            background: url("b2.jpg");
+            background: url("../img/b2.jpg");
         }
         .bf2{
             position: relative;
@@ -135,7 +144,7 @@
             height: 224px;
             left: 969px;
             top: 125px;
-            background: url("b3.jpg");
+            background: url("../img/b3.jpg");
         }
         .bf3{
             position: relative;
@@ -159,7 +168,7 @@
             height: 224px;
             left: 110px;
             top: 435px;
-            background: url("b4.jpg");
+            background: url("../img/b4.jpg");
         }
         .bf4{
             position: relative;
@@ -183,7 +192,7 @@
             height: 224px;
             left: 539px;
             top: 435px;
-            background: url("b5.jpg");
+            background: url("../img/b5.jpg");
         }
         .bf5{
             position: relative;
@@ -207,7 +216,7 @@
             height: 224px;
             left: 969px;
             top: 435px;
-            background: url("b6.jpg");
+            background: url("../img/b6.jpg");
         }
         .bf6{
             position: relative;
@@ -240,7 +249,7 @@
             height: 224px;
             left: 200px;
             top: 140px;       
-            background: url("b7.jpg");
+            background: url("../img/b7.jpg");
         }
         .bf7{
             position: relative;
@@ -264,7 +273,7 @@
             height: 224px;
             left: 879px;
             top: 140px;
-            background: url("b8.jpg");
+            background: url("../img/b8.jpg");
         }
         .bf8{
             position: relative;
@@ -291,12 +300,12 @@
             top: 500px;
             font-size: 28px;
             background: rgba(255, 255, 255, 0.507);
-            background-image: linear-gradient(to right,rgba(0, 255, 242, 0.411),rgba(130, 141, 238, 0.568));
+            background-image: linear-gradient(to right,rgb(0, 255, 242),rgb(130, 141, 238));
             border: transparent;
             border-radius: 20px;
         }
         .btn9:hover{
-            background-image: linear-gradient(to right,rgba(130, 141, 238, 0.568),rgba(0, 255, 242, 0.411));
+            background-image: linear-gradient(to right,rgb(130, 141, 238),rgb(0, 255, 242));
 
         }
 
@@ -330,7 +339,7 @@
     
         .footer .terms2{
             height: 100%;
-            width: 400px;
+            width: 200px;
             padding-top: 80px;
             padding-bottom: 20px;
             line-height: 10px;
@@ -354,7 +363,7 @@
             height: 34px;
             left: 1128px;
             top: 1400px;
-            background: url("trust.png") no-repeat;
+            background: url("../img/trust.png") no-repeat;
         }
         
         .footer .icons{

@@ -28,7 +28,7 @@
     height: 70px;
     left: 101px;
     top: 5px;
-    background: url("png.png") no-repeat;
+    background: url("../img/png.png") no-repeat;
 }
           
                             /* logo and menu */
@@ -90,7 +90,7 @@
             height:768px;
             left: 0px;
             top: 40px;
-            background: url("bff3.jpg");
+            background: url("../img/bff3.jpg");
         }
         .bf2 .bff1 p{
             position: absolute;
@@ -180,7 +180,7 @@
             left: 53px;
             top: 371px;
 
-            background: url("wepons3.jpg");
+            background: url("../img/wepons3.jpg");
             border-radius: 5px;
         }
 
@@ -190,7 +190,7 @@
             height: 220px;
             left: 483px;
             top: 371px;
-            background: url("maps3.jpg");
+            background: url("../img/maps3.jpg");
             border-radius: 5px;
         }
         
@@ -200,7 +200,7 @@
             height: 220px;
             left: 908px;
             top: 371px;
-            background: url("vechical3.jpg");
+            background: url("../img/vechical3.jpg");
             border-radius: 5px;
         }
         .bf3 .bff4 p{
@@ -281,7 +281,7 @@
             left: 0px;
             top: 0px;
 
-            background: url("bf buy3.jpg") no-repeat;
+            background: url("../img/bf buy3.jpg") no-repeat;
         }
         .bf4 button a{
             position: absolute;
@@ -343,10 +343,10 @@
     
         .footer .terms2{
             height: 100%;
-            width: 400px;
+            width: 200px;
             padding-top: 50px;
             padding-bottom: 20px;
-            line-height: 20px;
+            line-height: 10px;
             align-items: center;
             justify-content: space-between;
             
@@ -367,7 +367,7 @@
             height: 34px;
             left: 1128px;
             top: 3050px;
-            background: url("trust.png") no-repeat;
+            background: url("../img/trust.png") no-repeat;
         }
         
         .footer .icons{

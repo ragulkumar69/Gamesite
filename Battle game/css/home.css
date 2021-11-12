@@ -28,7 +28,7 @@
     height: 70px;
     left: 101px;
     top: 5px;
-    background: url("png.png") no-repeat;
+    background: url("../img/png.png") no-repeat;
 }
           
                             /* logo and menu */
@@ -79,7 +79,7 @@
             height: 768px;
             left: 0px;
             top: 0px;
-            background: url("Rectangle 13.jpg") no-repeat fixed;
+            background: url("../img/Rectangle 13.jpg") no-repeat;
         }
 
         .img p{
@@ -137,7 +137,7 @@
             height: 768px;
             left: 0px;
             top: 0px;
-            background: url("battlefield5-1.jpg") no-repeat fixed;
+            background: url("../img/battlefield5-1.jpg") no-repeat ;
         }
         .img2 p{
             position: absolute;
@@ -158,7 +158,7 @@
             left: 176px;
             top: 108px;
             border-radius: 10px;
-            background: url("bf21.jpg");
+            background: url("../img/bf21.jpg");
         }
 
         .img2 .img21 a:hover{
@@ -188,7 +188,7 @@
             height: 171px;
             left: 876px;
             top: 108px;
-            background: url("bf22.png");
+            background: url("../img/bf22.png");
             border-radius: 10px;
         }
 
@@ -221,7 +221,7 @@
             left: 176px;
             top: 355px;
             border-radius: 23px;
-            background: url(bf23.jpg);
+            background: url("../img/bf23.jpg");
             border-radius: 10px;
         }
 
@@ -252,7 +252,7 @@
             height: 178px;
             left: 876px;
             top: 355px;
-            background: url(bf24.jpg);
+            background: url("../img/bf24.jpg");
             border-radius: 10px;
         }
 
@@ -282,7 +282,7 @@
             width: 100%;
             height: 768px;
             flex-wrap: wrap;
-            background: url("bg3.jpg");
+            background: url("../img/bg3.jpg") no-repeat;
         }
 
         .img3 .img31 a{
@@ -292,7 +292,7 @@
             left: 209px;
             top: 145px;
             border-radius: 23px;
-            background: url("bf31.jpg");
+            background: url("../img/bf31.jpg");
             border-radius: 10px;
         }
 
@@ -323,7 +323,7 @@
             height: 171px;
             left: 843px;
             top: 145px;
-            background: url(bf32.png);
+            background: url("../img/bf32.png");
             border-radius: 10px;
         }
 
@@ -355,7 +355,7 @@
             left: 209px;
             top: 410px;
             border-radius: 23px;
-            background: url(bf33.jpg);
+            background: url("../img/bf33.jpg");
             border-radius: 10px;
         }
 
@@ -386,7 +386,7 @@
             height: 160px;
             left: 843px;
             top: 410px;
-            background: url(bf34.jpg);
+            background: url("../img/bf34.jpg");
             border-radius: 10px;
         }
 
@@ -411,7 +411,4 @@
             border: 2px solid rgb(255, 255, 255);
         }
 
-        @media only screen and (max-width:500px){
-
-
-        }
+        

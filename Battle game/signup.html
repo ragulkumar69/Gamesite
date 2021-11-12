@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="signup.css">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="../Battle game/css/signup.css">
+    <link rel="stylesheet" href="../Battle game/css/Style.css">
+    <script src="val.js"></script>
     <title>Sign up</title>
 </head>
 
@@ -19,11 +20,8 @@
     <div class="logo"><a href=""class="text-decoration-none"><span>B</span>attlefield</a></div>
 
     <ul class="menu" >
-        <li><a href="home.html"class="text-decoration-none">Home</a></li>
         <li><a href="aboutus.html"class="text-decoration-none">About</a></li>
-        <li><a href=""class="text-decoration-none">Services</a></li>
-        <li><a href=""class="text-decoration-none">Games</a></li>
-        <li><a href=""class="text-decoration-none">Contact</a></li>
+        <li><a href="contact.html"class="text-decoration-none">Contact us</a></li>
     </ul>
 
     </div>
@@ -32,27 +30,27 @@
   
 
         <section>
-          <div class="form">
-              <form action="reg.html">
+          <div class="form" >
+              <form name="myform" action="reg.html"  onsubmit="return validateform()">
                   <h2><b>Signup</b></h2>
                   <div class="inputbox">
-                      <input type="text" name="" required="required">
+                      <input type="text" name="name" required >
                       <span>Username</span>
                   </div>
                   <div class="inputbox">
-                     <input type="text" name="" required="required">
+                     <input type="text" name="name" required>
                      <span>Email</span>
                  </div>
                  <div class="inputbox">
-                     <input type="password" name="" required="required">
+                     <input type="password" name="password" required>
                      <span>Password</span>
                  </div>
                  <div class="inputbox">
-                      <input type="password" name="" required="required">
-                      <span>Confirm password</span>
+                      <input type="password" name="cpassword" required>
+                      <span>Confirm Password</span>
                   </div>
                   <div class="inputbox">
-                      <input type="submit"  name="" value="Sign Up">
+                      <input type="submit"   value="Sign Up">
                   </div>
                   <div class="button-text">
                     Already have account? <a href="signin.html">Sign in</a>
