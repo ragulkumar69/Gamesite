@@ -86,22 +86,12 @@
             position: relative;
             width: 626px;
             height: 143px;
-            left: 471px;
-            top: 210px;
-            color: blanchedalmond;
-            font-family: 'Play', sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 72px;
-            line-height: 155.39%;
-            background-clip:border-box;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color:transparent;
-            background-image: linear-gradient(to right, rgb(255, 217, 0),rgb(255, 0, 0));
+            left: 450px;
+            top: 100px;
+            color: rgb(25, 0, 255);
+            font-size: 60px;
             text-decoration: none;
             display: flex;
-            align-items: center;
-            text-align: center;
         }
 
         .img button {
@@ -111,7 +101,7 @@
             height: 64px;
             left: 591px;
             top: 360px;
-            background: #FFFFFF;
+            background: #000000;
             border: transparent;
             border-radius: 40px;
             background: rgba(255, 255, 255, 0.199);
@@ -122,11 +112,10 @@
             font-weight: 800;
             text-decoration: none;
             font-family: 'MuseoModerno' sans-serif;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
         }
 
         .img button:hover{
-            color: rgb(0, 0, 0);
             background-image: linear-gradient(to right, rgb(0, 247, 255),rgb(17, 0, 255));
             box-shadow: 0px 3px 3px 0px rgb(255, 255, 255),0px 8px 8px 0px rgb(255, 255, 255);
         }
