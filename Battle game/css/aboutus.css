@@ -28,7 +28,7 @@
     height: 70px;
     left: 101px;
     top: 5px;
-    background: url("png.png") no-repeat;
+    background: url("../img/png.png") no-repeat;
 }
           
                             /* logo and menu */
@@ -157,7 +157,7 @@
             height: 34px;
             left: 1128px;
             top: 1650px;
-            background: url("trust.png") no-repeat;
+            background: url("../img/trust.png") no-repeat;
         }
         
         .footer .icons{
